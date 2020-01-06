@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite" >
+		<test name="TestCase1">
+		<parameter name="testCaseId" value="TC001" />
+		<parameter name="testDataFileName" value="Testdata" />
+		<classes>
+			<class name="com.angel.TestScripts.TestCase" />
+		</classes>
+	</test>
+	
+</suite>
